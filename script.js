@@ -38,7 +38,7 @@ function saveTranslation() {
 // Функция для обновления списка избранных переводов
 function updateFavorites() {
     const favoritesList = document.getElementById("favoritesList");
-    favoritesList.innerHTML = ""; // Очищаем список
+    favoritesList.innerHTML = ""; 
 
     if (favorites.length === 0) {
         const message = document.createElement("li");
